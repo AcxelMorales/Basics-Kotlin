@@ -1,6 +1,7 @@
 package com.example.testkotlin.clases
 
 import android.util.Log
+import com.example.testkotlin.interfaces.Trabajo
 
 class DevFullStack: Trabajo {
 

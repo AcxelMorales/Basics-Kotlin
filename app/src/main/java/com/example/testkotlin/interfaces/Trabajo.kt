@@ -1,4 +1,4 @@
-package com.example.testkotlin.clases
+package com.example.testkotlin.interfaces
 
 interface Trabajo {
 
