@@ -3,9 +3,13 @@ package com.example.testkotlin
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.util.Log
+
 import com.example.testkotlin.clases.Cientifica
 import com.example.testkotlin.clases.SmartPhone3
+
 import com.example.testkotlin.enums.Semaforo
+
+import com.example.testkotlin.objects.Think
 
 class MainActivity : AppCompatActivity() {
 
@@ -31,6 +35,8 @@ class MainActivity : AppCompatActivity() {
 
         semaforo = Semaforo.VERDE.cambiar()
         Log.d("SEMAFORO", "$semaforo")
+
+        Think.miFuncion()
     }
 
 }
